@@ -1,0 +1,21 @@
+
+Given two integers num1 and num2, return the sum of the two integers.
+
+Example 1:
+Input: num1 = 12, num2 = 5
+Output: 17
+Explanation: num1 is 12, num2 is 5, and their sum is 12 + 5 = 17, so 17 is returned.
+
+Example 2:
+Input: num1 = -10, num2 = 4
+Output: -6
+Explanation: num1 + num2 = -6, so -6 is returned.
+
+Pseudo code:
+1. Set the value of num1 variable to 12 and set the value of num2 variable to 5 in the main function.
+
+2. Define a function called 'sum' that takes two numbers as input and returns their sum.
+
+3. Call the 'sum' function with num1 and num2 as arguments, and store the result in variable 'c'.
+
+4. Print the value of 'c'
