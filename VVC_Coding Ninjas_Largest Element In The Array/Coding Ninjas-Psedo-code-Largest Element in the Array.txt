@@ -1,0 +1,35 @@
+
+Given an array 'arr' of size 'n' find the largest element in the array.
+
+The first line will contain a single integer 'n', the size of the array 'arr'
+
+The second line will contain 'n' integers representing the array elements. That is arr.length.
+
+Print the maximum of elements.
+
+Sample input 1:
+n = 6
+arr = {4, 7, 8, 6, 7, 6}
+output: 8
+
+Sample input 2:
+n = 8
+arr = {5, 9, 3, 4, 8, 4, 3, 10}
+output: 10
+
+Pseudo code:
+1. Create an array.
+
+2. Define a function named largestElement that takes an array of integers as input.
+
+3.Set the maximum value found so far to the smallest possible integer value. That is Integer.MIN_VALUE.
+
+4. Iterate through each element in the array using for loop.
+
+5. Check If the current element is greater than the current maximum value.
+
+6. Then Update the maximum value to the current element.
+
+7. Return the maximum value found in the array.
+
+8. Call the largestElement function with the array as input and print the result.
